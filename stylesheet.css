@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+#display{
+    font-family: monospace;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px;
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;  
+    padding: 10px 20px;
+    margin :5px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+    border-radius: 50px;
+}
+#start{
+    background-color:  green;
+}
+#start:hover{
+    background-color: darkgreen;
+}
+#stop{
+    background-color: red;
+}
+#stop:hover{
+    background-color: darkred;
+}
+#reset{
+    background-color: gold
+}
+#reset:hover{
+    background-color: darkgoldenrod;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
